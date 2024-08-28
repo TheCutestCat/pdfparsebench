@@ -1,4 +1,20 @@
 openai
+python-dotenv
+
+# pypdf
 pypdf
+
+# jina_ai
 requests
+
+#gptpdf
 gptpdf
+
+#pdfplumber
+pdfplumber
+
+#PyMuPDF
+PyMuPDF
+
+#camelot
+camelot-py[base]
