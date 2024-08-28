@@ -1,8 +1,8 @@
 # pdfparsebench
 this is a benchmark of current pdf parse open-source method.
 
-
-- [x] **PyPDF** [Link](https://github.com/py-pdf/pypdf)
+- [√] **Jina ai** [Link](https://r.jina.ai/)
+- [√] **PyPDF** [Link](https://github.com/py-pdf/pypdf)
 - [x] **llm-graph-builder** [Link](https://github.com/neo4j-labs/llm-graph-builder)
 - [x] **Ragflow** [Link](https://github.com/infiniflow/ragflow)
 - [x] **GPTPDF** [Link](https://github.com/CosmosShadow/gptpdf)
