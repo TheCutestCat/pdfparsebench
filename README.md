@@ -1,6 +1,23 @@
-# pdfparsebench
+## pdfparsebench
 this is a benchmark of current pdf parse open-source method.
 
+
+## Usage
+
+To run the pdfparsebench benchmark using the example PDF file `pdfphrase_example.pdf`.
+
+Use the following command:
+
+fill the ```OPENAI_API_KEY``` and ```OPENAI_BASE_URL``` in ```.env.example``` and change the name to ```.env```
+
+```python pdfparsebench/main.py --path ./test_data/example/pdfphrase_example.pdf```
+
+the result is in the folder ```test_result```, currently we have : ``` jina.ai ``` ``` pypdf ``` ``` gptpdf ```
+
+## todo
+use [modal](https://modal.com/) to run the method that need GPU
+
+## method list
 - [x] **Jina ai** [Link](https://r.jina.ai/)
 - [x] **PyPDF** [Link](https://github.com/py-pdf/pypdf)
 - [x] **GPTPDF** [Link](https://github.com/CosmosShadow/gptpdf)
@@ -14,3 +31,4 @@ this is a benchmark of current pdf parse open-source method.
 - [ ] **PyMuPDF** [Link](https://github.com/pymupdf/PyMuPDF)
 - [ ] **PDFPlumber** [Link](https://github.com/jsvine/pdfplumber)
 - [ ] **Camelot** [Link](https://github.com/camelot-dev/camelot)
+

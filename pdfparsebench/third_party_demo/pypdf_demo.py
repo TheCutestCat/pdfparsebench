@@ -1,7 +1,7 @@
 from pypdf import PdfReader
 import os
 
-def extract_pdf_text_to_markdown(data_path, save_path):
+def extract_pdf_text_PdfReader(data_path, save_path):
     """
     Extracts text from a PDF and saves it to a markdown file.
     
@@ -37,4 +37,4 @@ if __name__ == "__main__":
     pdfname = pdf_example_path.split('/')[-1].replace('.pdf', '')
     save_path = save_result_path_template.format(file_name=file_name, pdfname=pdfname)
 
-    extract_pdf_text_to_markdown(pdf_example_path, save_path)
+    extract_pdf_text_PdfReader(pdf_example_path, save_path)
